@@ -1,0 +1,166 @@
+{
+  "employees": [
+    {
+      "id": "e01",
+      "name": "Jordan Blake",
+      "title": "Principal Engineer (US.E2.G1)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+      "years": [2025],
+      "quarters": ["Q1", "Q2", "Q3", "Q4"],
+      "categoryTags": ["Education", "Public speaking", "University Partner"],
+      "activities": { "education": 12, "publicSpeaking": 6, "universityPartner": 3 },
+      "recentActivity": [
+        { "activity": "[EDU] Internal bootcamp series", "category": "Education", "date": "2025-12-18", "points": 48 },
+        { "activity": "[TALK] Regional meetup keynote", "category": "Public speaking", "date": "2025-11-04", "points": 72 },
+        { "activity": "[UP] Lab sponsorship kickoff", "category": "University Partner", "date": "2025-10-22", "points": 35 }
+      ]
+    },
+    {
+      "id": "e02",
+      "name": "Sam Avery",
+      "title": "Senior Software Engineer (BY.U1.G1)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/44.jpg",
+      "years": [2025],
+      "quarters": ["Q3", "Q4"],
+      "categoryTags": ["Education", "Public speaking"],
+      "activities": { "education": 9, "publicSpeaking": 4, "universityPartner": 1 },
+      "recentActivity": [
+        { "activity": "[EDU] Cursor workshop", "category": "Public speaking", "date": "2025-12-20", "points": 63 },
+        { "activity": "[EDU] Documentation sprint", "category": "Education", "date": "2025-11-15", "points": 22 }
+      ]
+    },
+    {
+      "id": "e03",
+      "name": "Riley Chen",
+      "title": "Staff Engineer (DE.U3.G2)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/85.jpg",
+      "years": [2025],
+      "quarters": ["Q2", "Q4"],
+      "categoryTags": ["University Partner", "Education"],
+      "activities": { "education": 7, "publicSpeaking": 2, "universityPartner": 8 },
+      "recentActivity": [
+        { "activity": "[UP] Student hackathon judge", "category": "University Partner", "date": "2025-12-01", "points": 40 },
+        { "activity": "[EDU] Mentoring circle", "category": "Education", "date": "2025-09-09", "points": 28 }
+      ]
+    },
+    {
+      "id": "e04",
+      "name": "Morgan Ellis",
+      "title": "Engineering Manager (UK.U2.G4)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/68.jpg",
+      "years": [2025],
+      "quarters": ["Q1", "Q4"],
+      "categoryTags": ["Public speaking", "Education"],
+      "activities": { "education": 5, "publicSpeaking": 7, "universityPartner": 0 },
+      "recentActivity": [
+        { "activity": "[TALK] Panel: platform strategy", "category": "Public speaking", "date": "2025-10-30", "points": 55 }
+      ]
+    },
+    {
+      "id": "e05",
+      "name": "Casey Rowe",
+      "title": "Software Engineer II (PL.U1.G2)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/22.jpg",
+      "years": [2025],
+      "quarters": ["Q1", "Q2", "Q3"],
+      "categoryTags": ["Education", "University Partner"],
+      "activities": { "education": 11, "publicSpeaking": 1, "universityPartner": 4 },
+      "recentActivity": [
+        { "activity": "[EDU] Lunch & learn series", "category": "Education", "date": "2025-08-14", "points": 19 },
+        { "activity": "[UP] Guest lecture", "category": "University Partner", "date": "2025-07-02", "points": 33 }
+      ]
+    },
+    {
+      "id": "e06",
+      "name": "Taylor Kim",
+      "title": "Senior Software Engineer (CA.U2.G1)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/17.jpg",
+      "years": [2025],
+      "quarters": ["Q4"],
+      "categoryTags": ["Public speaking", "University Partner"],
+      "activities": { "education": 3, "publicSpeaking": 5, "universityPartner": 3 },
+      "recentActivity": [
+        { "activity": "[TALK] Community podcast", "category": "Public speaking", "date": "2025-12-12", "points": 27 }
+      ]
+    },
+    {
+      "id": "e07",
+      "name": "Quinn Reed",
+      "title": "Tech Lead (ES.U1.G3)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/41.jpg",
+      "years": [2025],
+      "quarters": ["Q2", "Q3", "Q4"],
+      "categoryTags": ["Education"],
+      "activities": { "education": 14, "publicSpeaking": 0, "universityPartner": 1 },
+      "recentActivity": [
+        { "activity": "[EDU] Onboarding curriculum refresh", "category": "Education", "date": "2025-11-20", "points": 44 }
+      ]
+    },
+    {
+      "id": "e08",
+      "name": "Drew Harper",
+      "title": "Software Engineer (IN.U2.G2)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/90.jpg",
+      "years": [2025],
+      "quarters": ["Q1", "Q3"],
+      "categoryTags": ["University Partner", "Public speaking"],
+      "activities": { "education": 2, "publicSpeaking": 3, "universityPartner": 5 },
+      "recentActivity": [
+        { "activity": "[UP] Capstone review board", "category": "University Partner", "date": "2025-10-05", "points": 30 }
+      ]
+    },
+    {
+      "id": "e09",
+      "name": "Jamie Park",
+      "title": "Principal Engineer (JP.U3.G1)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/56.jpg",
+      "years": [2025],
+      "quarters": ["Q3"],
+      "categoryTags": ["Education", "Public speaking", "University Partner"],
+      "activities": { "education": 6, "publicSpeaking": 2, "universityPartner": 2 },
+      "recentActivity": [
+        { "activity": "[EDU] Architecture deep dive", "category": "Education", "date": "2025-09-18", "points": 38 },
+        { "activity": "[TALK] Lightning talks host", "category": "Public speaking", "date": "2025-08-27", "points": 15 }
+      ]
+    },
+    {
+      "id": "e10",
+      "name": "Reese Nolan",
+      "title": "Engineering Manager (FR.U1.G2)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/28.jpg",
+      "years": [2025],
+      "quarters": ["Q2", "Q4"],
+      "categoryTags": ["Public speaking"],
+      "activities": { "education": 1, "publicSpeaking": 8, "universityPartner": 0 },
+      "recentActivity": [
+        { "activity": "[TALK] Conference workshop", "category": "Public speaking", "date": "2025-12-08", "points": 60 }
+      ]
+    },
+    {
+      "id": "e11",
+      "name": "Skyler Fox",
+      "title": "Software Engineer II (NL.U2.G3)",
+      "photoUrl": "https://randomuser.me/api/portraits/men/73.jpg",
+      "years": [2025],
+      "quarters": ["Q1", "Q2"],
+      "categoryTags": ["Education", "University Partner"],
+      "activities": { "education": 8, "publicSpeaking": 1, "universityPartner": 2 },
+      "recentActivity": [
+        { "activity": "[EDU] Pair programming guild", "category": "Education", "date": "2025-06-11", "points": 21 }
+      ]
+    },
+    {
+      "id": "e12",
+      "name": "Parker Lane",
+      "title": "Staff Engineer (SE.U1.G1)",
+      "photoUrl": "https://randomuser.me/api/portraits/women/55.jpg",
+      "years": [2025],
+      "quarters": ["Q4"],
+      "categoryTags": ["University Partner"],
+      "activities": { "education": 0, "publicSpeaking": 0, "universityPartner": 6 },
+      "recentActivity": [
+        { "activity": "[UP] Research collaboration", "category": "University Partner", "date": "2025-11-28", "points": 45 }
+      ]
+    }
+  ]
+}

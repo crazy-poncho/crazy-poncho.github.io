@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 class="page-header__title">Leaderboard</h1>
+      <p class="page-header__subtitle">Top performers based on contributions and activity</p>
+    </header>
+
+    <section class="filter-bar" aria-label="Filters">
+      <div class="filter-bar__inner">
+        <label class="filter-field">
+          <span class="filter-field__label">Year</span>
+          <select id="filter-year" class="filter-field__control">
+            <option value="all">All years</option>
+            <option value="2025">2025</option>
+          </select>
+        </label>
+        <label class="filter-field">
+          <span class="filter-field__label">Quarter</span>
+          <select id="filter-quarter" class="filter-field__control">
+            <option value="all">All quarters</option>
+            <option value="Q1">Q1</option>
+            <option value="Q2">Q2</option>
+            <option value="Q3">Q3</option>
+            <option value="Q4">Q4</option>
+          </select>
+        </label>
+        <label class="filter-field">
+          <span class="filter-field__label">Category</span>
+          <select id="filter-category" class="filter-field__control">
+            <option value="all">All categories</option>
+            <option value="Education">Education</option>
+            <option value="Public speaking">Public speaking</option>
+            <option value="University Partner">University Partner</option>
+          </select>
+        </label>
+        <label class="filter-field filter-field--grow">
+          <span class="filter-field__label">Search employee</span>
+          <input
+            id="filter-search"
+            type="search"
+            class="filter-field__control"
+            placeholder="Search by name"
+            autocomplete="off"
+          />
+        </label>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="podium-section" aria-label="Top three">
+        <div id="podium" class="podium"></div>
+      </section>
+
+      <section class="leader-list-section" aria-label="All employees">
+        <div id="leader-list" class="leader-list" role="list"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

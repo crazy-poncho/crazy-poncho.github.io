@@ -1,0 +1,8 @@
+{
+  "name": "crazy-poncho-leaderboard",
+  "private": true,
+  "description": "Static leaderboard demo for GitHub Pages; local dev uses Node static server",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
